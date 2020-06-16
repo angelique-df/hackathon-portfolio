@@ -18,17 +18,15 @@ One page
             htaccess pour l'authentification : restreindre l'accès à /hackathon/ et /hackathon à une adresse IP dans htaccess
         PHP
             Contact
+            authentification
         DB
             MariaDB + MySQL
     Frontend
         HTML
             SEO
             Accessibilité
+            responsive
         JavaScript
             scroll rétrécissement navbar
             boite de dialogue
             validation
-
-responsive
-accessibilité
-authentification
