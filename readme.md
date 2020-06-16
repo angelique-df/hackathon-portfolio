@@ -1,3 +1,5 @@
+Site créé lors du hackathon 2
+
 One page
     Accueil
         Actuellement à la recherche d'un stage de 'développeur JavaScript (frontend)'
