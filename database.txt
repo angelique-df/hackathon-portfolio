@@ -1,0 +1,9 @@
+visit
+    id
+    entry_date
+    exit_date
+    source
+
+links
+    visit_id
+    link_url

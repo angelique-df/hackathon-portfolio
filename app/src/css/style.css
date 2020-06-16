@@ -1,0 +1,233 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+main{
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.dashboard-main{
+    margin-top: 4em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3{
+    text-transform: uppercase;
+}
+.site-name{
+    font-size: 0.75em;
+    margin: 0;
+}
+.site-name a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 1.3em;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5em;
+    z-index: 1;
+
+    transition: font-size 0.2s;
+}
+header > nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: right;
+}
+header > nav ul li{
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-left: 1em;
+}
+header > nav ul li a{
+    color: white;
+}
+section{
+    margin-bottom: 3em;
+}
+.hero{
+    padding: 1em;
+    min-height: 30vh;
+    position: relative;
+    background: url('./../img/overlay.png');
+    margin-top: 2.4em;
+    background-color: rgba(0, 40, 255, 0.5);
+}
+.hero img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    max-height: 100%;
+}
+.hero-message{
+    height: 100%;
+    color: white;
+}
+.hero-message{
+    height: 100%;
+    color: white;
+}
+.hero-message p{
+    border: 1px solid white;
+    padding: 3px;
+    display: inline-block;
+    padding: 0.5em;
+    margin-top: 0;
+}
+.hero-message a{
+    color: white;
+}
+.horizontal-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.horizontal-list li{
+    text-transform: uppercase;
+    margin-right: 1em;
+}
+.projects li > ul{
+    padding-left: 1em;
+    margin: 0;
+    list-style-type: none;
+}
+section.contact-form{
+    margin: 0;
+    padding: 1em;
+}
+section.languages > ul.horizontal-list,
+section.skills > ul.horizontal-list{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.languages,
+section.skills{
+    text-align: center;
+    font-size: 1em;
+}
+.projects-lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+form,
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin: 0 auto;
+    padding: 0.5em;
+}
+form input[type=text],
+textarea {
+    border-radius: 2px;
+    border: 1px solid black;
+}
+form div,
+form input[type=submit]{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+table{
+    min-width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: top;
+}
+th, td {
+    padding: 0.5em;
+}
+td{
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;
+    max-width: 8em;
+}
+td ul {
+    padding-left: 1em;
+    margin: 0;
+
+}
+.consent{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid blue;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1;
+}
+footer{
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+footer a{
+    color: white;
+}
+#back-to-top{
+    position: fixed;
+    right: 1em;
+    bottom: 80px;
+    color: white;
+    background-color: blue;
+    padding: 0.5em;
+    border-color: blue;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+#back-to-top:hover,
+#back-to-top:active{
+    background-color: turquoise;
+}
+@media only screen and (min-width: 768px) {
+    body{
+        font-size: 22px;
+    }
+    header{
+        font-size: 2em;
+    }
+    .hero{
+        height: 50vh;
+    }
+    .hero-message{
+        font-size: 1.5em;
+        margin-left: 2em;
+        margin-top: 4em;
+    }
+    .projects-lists li{
+        margin-right: 1em;
+    }
+    form{
+        width: 60%;
+    }
+  }

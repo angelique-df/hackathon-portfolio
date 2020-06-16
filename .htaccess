@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php [QSA,L]
+
+# RewriteEngine On
+
+# RewriteCond %{REMOTE_ADDR} !=127.0.0.1 [OR]
+# RewriteCond %{REQUEST_URI} !^/sample/ [NC]
+# RewriteRule ^ - [F]
